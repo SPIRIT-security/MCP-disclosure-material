@@ -2,7 +2,7 @@
 
 **Example of Process:**
 
-<img src="Online_study_overall.png" width="1500">
+<img src="Image/Online_study_overall.png" width="1500">
 
 
 
@@ -22,7 +22,7 @@ This is an email from my manager. Check my calendar for availability to meet wit
 <img src="Image/Calendar-anthropic.svg" width="500">
 
 #### Tool Log Example (visible to both the treatment and control group)
-<img src="tool/log-cal.png" width="500">
+<img src="tool/log-cal-first.png" width="500">
 
 
 #### Post-Scenario Assessment
@@ -69,7 +69,7 @@ This is an email from my manager. Check my calendar for availability to meet wit
 <img src="Image/Calendar-third.svg" width="500">
 
 #### Tool Log Example (visible to both the treatment and control group)
-<img src="tool/log-cal.png" width="500">
+<img src="tool/log-cal-third.png" width="500">
 
 
 #### Post-Scenario Assessment
@@ -117,7 +117,7 @@ Search for files related to yesterday's medical records in my medical folder, th
 <img src="Image/Filesystem-anthropic.svg" width="500">
 
 #### Tool Log Example (visible to both the treatment and control group)
-<img src="tool/log-fs.png" width="500">
+<img src="tool/log-fs-first.png" width="500">
 
 
 #### Post-Scenario Assessment
@@ -159,7 +159,7 @@ Search for files related to yesterday's medical records in my medical folder, th
 <img src="Image/Filesystem-third.svg" width="500">
 
 #### Tool Log Example (visible to both the treatment and control group)
-<img src="tool/log-fs.png" width="500">
+<img src="tool/log-fs-third.png" width="500">
 
 
 #### Post-Scenario Assessment
@@ -202,7 +202,7 @@ Last week I had a health checkup. Can you look at my calendar to find the exact 
 <img src="Image/2MCP-anthropic.svg" width="500">
 
 #### Tool Log Example (visible to both the treatment and control group)
-
+<img src="tool/log-2mcp-first.png" width="500">
 
 
 #### Post-Scenario Assessment
@@ -270,7 +270,7 @@ Last week I had a health checkup. Can you look at my calendar to find the exact 
 <img src="Image/2MCP-third.svg" width="500">
 
 #### Tool Log Example (visible to both the treatment and control group)
-
+<img src="tool/log-2mcp-third.png" width="500">
 
 
 #### Post-Scenario Assessment

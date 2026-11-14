@@ -5,11 +5,6 @@
 <img src="Online_study_overall.png" width="1500">
 
 
-| # | Prompt | MCP Server Category |
-|---|---|---|
-| 1 | This is an email from my manager. Check my calendar for availability to meet with him, and create an event if possible.<br><br>--- Email ---<br>From: Manager2026@gmail.com<br>To: User2026@gmail.com<br>Title: Discuss your project<br><br>Dear User,<br><br>I hope you're doing well.<br><br>I'd like to schedule a 1-hour meeting next week to review our project, discuss your progress, and address any questions or concerns you may have.<br><br>Here are a few time windows that work for me (EST):<br>- Monday, May 11 – 10:00 AM to 3:00 PM<br>- Tuesday, May 12 – 1:00 PM to 6:00 PM<br>- Wednesday, May 13 – 11:00 AM to 6:00 PM<br><br>Please let me know which time works best, and feel free to send a calendar invite once confirmed.<br><br>Best regards,<br>Manager Test<br>--- End of Email --- | Calendar |
-| 2 | Search for files related to yesterday's medical records in my medical folder, then read them and tell me about my condition and how to take the medication. | Filesystem |
-| 3 | Last week I had a health checkup. Can you look at my calendar to find the exact date and details of that appointment, then search my medical folder for any files saved around that time and read them to tell me what the diagnosis was and what medications I need to take. | Calendar + Filesystem |
 
 
 ### Calendar Scenario Task
@@ -119,7 +114,35 @@ What data do you think the Filesystem MCP server can receive from Claude in this
 
 ### Calendar + Filesystem Scenario Task
 
-#### Q1a
+#### Scenario introduction
+Imagine you recently had a medical appointment and want to follow up on some details. Using your calendar, you want to find the appointment and note the date and provider. Then, you want to locate the corresponding medical file on your computer (e.g., a visit summary, test results, or notes) and review its contents to check the diagnosis and any prescribed medications. This task requires both the Google Calendar MCP and Filesystem MCP servers, as shown below.
+
+#### MCP server Tool Page
+##### First Party
+<img src="tool/cal-first.png" width="500">
+<img src="tool/fs-first.png" width="500">
+
+#### Third Party
+<img src="tool/cal-third.png" width="500">
+<img src="tool/fs-third.png" width="500">
+
+
+#### Prompt
+Last week I had a health checkup. Can you look at my calendar to find the exact date and details of that appointment, then search my medical folder for any files saved around that time and read them to tell me what the diagnosis was and what medications I need to take.
+
+#### FlowLens (only visible to the treatment group)
+##### First Party
+<img src="Image/2MCP-anthropic.svg" width="500">
+
+#### Third Party
+<img src="Image/2MCP-third.svg" width="500">
+
+#### Tool Log Example (visible to both the treatment and control group)
+*Same as above (Calendar and Filesystem)*
+
+
+#### Post-Scenario Assessment
+##### Q1a
 What data do you think Claude can receive from the Google Calendar MCP server in this scenario? *(Select all that apply)*
 
 - [ ] A. Events during the specified time window, including the event title, event ID, and event time
@@ -131,7 +154,7 @@ What data do you think Claude can receive from the Google Calendar MCP server in
 
 **Correct answer – First party: B; Third party: A**
 
-#### Q1b
+##### Q1b
 What data do you think Claude can receive from the Filesystem MCP server in this scenario? *(Select all that apply)*
 
 - [ ] A. Content of medical files filter by filename in the directory allowed by users
@@ -141,7 +164,7 @@ What data do you think Claude can receive from the Filesystem MCP server in this
 
 **Correct answer – First party: BC; Third party: A**
 
-#### Q2a
+##### Q2a
 What data do you think the Google Calendar MCP server can receive from Claude in this scenario? *(Select all that apply)*
 
 - [ ] A. The time window provided in the prompt
@@ -154,7 +177,7 @@ What data do you think the Google Calendar MCP server can receive from Claude in
 
 **Correct answer – First party: A; Third party: A**
 
-#### Q2b
+##### Q2b
 What data do you think the Filesystem MCP server can receive from Claude in this scenario? *(Select all that apply)*
 
 - [ ] A. The allowed directory path

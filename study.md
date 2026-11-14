@@ -22,7 +22,6 @@
   (C) Through a command-line tool (e.g., Claude Code CLI, npx command). <br>
   (D) Through a third-party browser extension (e.g., MCP SuperAssistant or similar tools that bring MCP to web-based chat interfaces). <br>
   (E) I am not sure. *[Screen out]* <br>
-  <br>
 9. What is your gender identity?<br>
 	(A) Male (B) Female (C) Non-binary (D) Prefer not to say <br>
 10. Choose one or more races that you consider yourself to be. <br>
@@ -50,15 +49,15 @@ see Online_study_material.md
 #### Q1
 Who do you think collects your data throughout all tasks? *(Select all that apply)*
 
-- [ ] ** A. The AI application (e.g., Claude) **
-- [ ] ** B. The MCP servers **
+- [ ] **A. The AI application (e.g., Claude)**
+- [ ] **B. The MCP servers**
 - [ ] C. My device or operating system
 - [ ] D. I am not sure
 
 #### Q2
 Which diagram best represents the data flows across all tasks? *(Single choice)*
 
-- ( ) ** A. User → Claude → MCP servers → Claude → User **
+- ( ) **A. User → Claude → MCP servers → Claude → User**
 - ( ) B. User → MCP servers → Claude → User
 - ( ) C. User → Claude → User
 - ( ) D. I am not sure

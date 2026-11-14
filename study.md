@@ -33,6 +33,7 @@
   (E) Bachelor’s degree <br>
   (F) Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS, etc.)<br>
   (G) Prefer not to say <br>
+
 **[Participants are randomly assigned to either the treatment group or the control group]** <br>
 ---- Q12 and Q13 are only visible to the treatment group ----
 12. Are you able to participate in the study via Zoom?<br>

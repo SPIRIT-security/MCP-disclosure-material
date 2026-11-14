@@ -35,6 +35,10 @@ This is an email from my manager. Check my calendar for availability to meet wit
 #### Third Party
 <img src="Image/Calendar-third.svg" width="500">
 
+#### Tool Log Example (visible to both the treatment and control group)
+<img src="tool/log-cal.png" width="500">
+
+
 #### Post-Scenario Assessment
 ##### Q1
 What data do you think Claude can receive from the Google Calendar MCP server in this scenario? *(Select all that apply)*

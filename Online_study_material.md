@@ -19,10 +19,10 @@ Imagine your manager has sent you an email with several time slots when he is av
 
 #### MCP server Tool Page
 ##### First Party
-<img src="Image/Filesystem-anthropic.svg" width="500">
+<img src="Tool/cal-first.svg" width="500">
 
 #### Third Party
-<img src="Image/Filesystem-third.svg" width="500">
+<img src="Image/cal-third.svg" width="500">
 
 
 #### Prompt
@@ -30,10 +30,10 @@ This is an email from my manager. Check my calendar for availability to meet wit
 
 #### FlowLens (only visible to the treatment group)
 ##### First Party
-<img src="Image/Filesystem-anthropic.svg" width="500">
+<img src="Image/Calendar-anthropic.svg" width="500">
 
 #### Third Party
-<img src="Image/Filesystem-third.svg" width="500">
+<img src="Image/Calendar-third.svg" width="500">
 
 #### Post-Scenario Assessment
 ##### Q1

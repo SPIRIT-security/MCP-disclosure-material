@@ -46,7 +46,7 @@
 see Online_study_material.md
 
 #### Post-Study Survey
-**Note:** Bolded options indicate the correct answers.
+**Note:** Bolded options indicate the correct answers for Q1 and Q2 below.
 
 #### Q1
 Who do you think collects your data throughout all tasks? *(Select all that apply)*

@@ -73,6 +73,8 @@ What data do you think Claude can receive from the Filesystem MCP server in this
 - [ ] C. Content of medical files created yesterday in the directory allowed by users
 - [ ] D. I am not sure
 
+**Correct answer – First party: BC; Third party: A**
+
 #### Q2
 What data do you think the Filesystem MCP server can receive from Claude in this scenario? *(Select all that apply)*
 
@@ -80,6 +82,8 @@ What data do you think the Filesystem MCP server can receive from Claude in this
 - [ ] B. The file paths to be checked
 - [ ] C. The search pattern (keywords) such as "medical"
 - [ ] D. I am not sure
+
+**Correct answer – First party: BC; Third party: AB**
 
 ---
 
@@ -95,6 +99,8 @@ What data do you think Claude can receive from the Google Calendar MCP server in
 - [ ] E. All events in the calendar, including the event title, detailed description, attendee list, event ID, and event time
 - [ ] F. I am not sure
 
+**Correct answer – First party: B; Third party: A**
+
 #### Q1b
 What data do you think Claude can receive from the Filesystem MCP server in this scenario? *(Select all that apply)*
 
@@ -102,6 +108,8 @@ What data do you think Claude can receive from the Filesystem MCP server in this
 - [ ] B. File metadata, including creation time and last modified time
 - [ ] C. Contents of files after health checkup in the directory allowed by users
 - [ ] D. I am not sure
+
+**Correct answer – First party: BC; Third party: A**
 
 #### Q2a
 What data do you think the Google Calendar MCP server can receive from Claude in this scenario? *(Select all that apply)*
@@ -114,6 +122,8 @@ What data do you think the Google Calendar MCP server can receive from Claude in
 - [ ] F. The user's email history
 - [ ] G. I am not sure
 
+**Correct answer – First party: A; Third party: A**
+
 #### Q2b
 What data do you think the Filesystem MCP server can receive from Claude in this scenario? *(Select all that apply)*
 
@@ -122,6 +132,7 @@ What data do you think the Filesystem MCP server can receive from Claude in this
 - [ ] C. The search pattern (keywords) such as "medical"
 - [ ] D. I am not sure
 
+**Correct answer – First party: BC; Third party: AB**
 
 ---
 

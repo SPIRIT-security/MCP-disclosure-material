@@ -14,7 +14,29 @@
 
 ### Calendar Scenario Task
 
-#### Q1
+#### Scenario introduction
+Imagine your manager has sent you an email with several time slots when he is available for a meeting. You want to check your own calendar to find a time that works for both of you and then schedule a meeting with your manager. This task requires you to use the Google Calendar MCP server to check your calendar availability and schedule the meeting.
+
+#### MCP server Tool Page
+##### First Party
+<img src="Online_study_overall.png" width="1500">
+
+#### Third Party
+<img src="Online_study_overall.png" width="1500">
+
+
+#### Prompt
+This is an email from my manager. Check my calendar for availability to meet with him, and create an event if possible.<br><br>--- Email ---<br>From: Manager2026@gmail.com<br>To: User2026@gmail.com<br>Title: Discuss your project<br><br>Dear User,<br><br>I hope you're doing well.<br><br>I'd like to schedule a 1-hour meeting next week to review our project, discuss your progress, and address any questions or concerns you may have.<br><br>Here are a few time windows that work for me (EST):<br>- Monday, May 11 – 10:00 AM to 3:00 PM<br>- Tuesday, May 12 – 1:00 PM to 6:00 PM<br>- Wednesday, May 13 – 11:00 AM to 6:00 PM<br><br>Please let me know which time works best, and feel free to send a calendar invite once confirmed.<br><br>Best regards,<br>Manager Test<br>--- End of Email
+
+#### FlowLens (only visible to the treatment group)
+##### First Party
+<img src="Online_study_overall.png" width="1500">
+
+#### Third Party
+<img src="Online_study_overall.png" width="1500">
+
+#### Post-Scenario Assessment
+##### Q1
 What data do you think Claude can receive from the Google Calendar MCP server in this scenario? *(Select all that apply)*
 
 - [ ] A. Events during the specified time window, including the event title, event ID, and event time
@@ -24,7 +46,9 @@ What data do you think Claude can receive from the Google Calendar MCP server in
 - [ ] E. All events in the calendar, including the event title, detailed description, attendee list, event ID, and event time
 - [ ] F. I am not sure
 
-#### Q2
+**Correct answer – First party: C; Third party: A**
+
+##### Q2
 What data do you think the Google Calendar MCP server can receive from Claude in this scenario? *(Select all that apply)*
 
 - [ ] A. The time window provided in the prompt
@@ -35,6 +59,7 @@ What data do you think the Google Calendar MCP server can receive from Claude in
 - [ ] F. The user's email history
 - [ ] G. I am not sure
 
+**Correct answer – First party: ABCD; Third party: ABCD**
 ---
 
 ### Filesystem Scenario Task

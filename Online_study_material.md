@@ -19,10 +19,10 @@ Imagine your manager has sent you an email with several time slots when he is av
 
 #### MCP server Tool Page
 ##### First Party
-<img src="Tool/cal-first.svg" width="500">
+<img src="Tool/cal-first.png" width="500">
 
 #### Third Party
-<img src="Image/cal-third.svg" width="500">
+<img src="Image/cal-third.png" width="500">
 
 
 #### Prompt

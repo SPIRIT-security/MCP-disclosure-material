@@ -35,7 +35,8 @@
   (G) Prefer not to say <br>
 
 **[Participants are randomly assigned to either the treatment group or the control group]** <br>
----- Q12 and Q13 are only visible to the treatment group ----
+---- Q12 and Q13 are only visible to the treatment group ---- 
+
 12. Are you able to participate in the study via Zoom?<br>
 	(A) yes (B) no <br>
 13. Thanks very much for your interest in our study. We will contact you to schedule the study. Please enter an email address by which we can contact you. [open text box] <br>

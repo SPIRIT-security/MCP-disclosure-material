@@ -60,6 +60,7 @@ What data do you think the Google Calendar MCP server can receive from Claude in
 - [ ] G. I am not sure
 
 **Correct answer – First party: ABCD; Third party: ABCD**
+
 ---
 
 ### Filesystem Scenario Task

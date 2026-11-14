@@ -69,7 +69,33 @@ What data do you think the Google Calendar MCP server can receive from Claude in
 
 ### Filesystem Scenario Task
 
-#### Q1
+#### Scenario introduction
+Imagine you had a medical appointment yesterday and want to follow up on the instructions provided during the visit. You want to find the medical file created or updated yesterday on your computer and review its contents to determine what you need to do next. This task requires you to use the Filesystem MCP server to search for the relevant file and review its contents.
+
+#### MCP server Tool Page
+##### First Party
+<img src="tool/fs-first.png" width="500">
+
+#### Third Party
+<img src="tool/fs-third.png" width="500">
+
+
+#### Prompt
+Search for files related to yesterday's medical records in my medical folder, then read them and tell me about my condition and how to take the medication.
+
+#### FlowLens (only visible to the treatment group)
+##### First Party
+<img src="Image/Filesystem-anthropic.svg" width="500">
+
+#### Third Party
+<img src="Image/Filesystem-third.svg" width="500">
+
+#### Tool Log Example (visible to both the treatment and control group)
+<img src="tool/log-fs.png" width="500">
+
+
+#### Post-Scenario Assessment
+##### Q1
 What data do you think Claude can receive from the Filesystem MCP server in this scenario? *(Select all that apply)*
 
 - [ ] A. Content of medical files filter by filename in the directory allowed by users
@@ -79,7 +105,7 @@ What data do you think Claude can receive from the Filesystem MCP server in this
 
 **Correct answer – First party: BC; Third party: A**
 
-#### Q2
+##### Q2
 What data do you think the Filesystem MCP server can receive from Claude in this scenario? *(Select all that apply)*
 
 - [ ] A. The allowed directory path

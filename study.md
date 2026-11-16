@@ -14,8 +14,8 @@
   (A) Less than 1 month (B) 1-3 months (C) 4-6 months (D) 7-12 months (D) More than 1 year <br>
 7. Have you connected your LLM(s) to an external tool using an MCP server? <br>
    MCP (Model Context Protocol) is a standard that defines how AI applications connect to external tools and data. An MCP server is a software component that implements this standard and provides access to specific tools or resources, such as GitHub, a file system, a database, or Slack. <br>
-   For example, some people use Claude/ChatGPT with MCP servers to access Gmail and manage emails, interact with Google Drive or Google Calendar, query databases like PostgreSQL, control GitHub repositories, connect to Slack or Discord, browse and automate web apps, work with Notion, access local files, or interact with cloud services like AWS.
-  (A) Yes, I have connected an MCP server. (B) No, I have never connected any MCP servers. *[Screen out]* (C) I am not sure. *[Screen out if Q8 is also "I am not sure"]* <br>
+   For example, some people use Claude/ChatGPT with MCP servers to access Gmail and manage emails, interact with Google Drive or Google Calendar, query databases like PostgreSQL, control GitHub repositories, connect to Slack or Discord, browse and automate web apps, work with Notion, access local files, or interact with cloud services like AWS. <br>
+  (A) Yes, I have connected an MCP server. <br> (B) No, I have never connected any MCP servers. *[Screen out]* <br> (C) I am not sure. *[Screen out if Q8 is also "I am not sure"]* <br>
 8. Which methods did you use to connect an MCP server? <br>
   (A) Through a graphical interface / built-in settings (e.g., Claude's "Connectors" menu). <br>
   (B) By manually editing a configuration file (e.g., claude_desktop_config.json, mcp.json). <br>
